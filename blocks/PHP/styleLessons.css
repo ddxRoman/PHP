@@ -1,0 +1,88 @@
+.head{
+    display: grid;
+    grid-template-columns: 7% 15% 40% 38%;
+    height: 55px;
+    margin-top: 10px;
+    background-color: #efedef;
+    grid-column: auto;
+    padding-left: 1%;
+}
+.input
+{
+    display: grid;
+     margin-left: 10%;
+    width: 80%;
+    background-color: #8bc05f;
+}
+.date{
+    display: grid;
+    grid-column: auto;
+    padding-left: 45%;
+    color: rgb(82, 121, 72);
+}
+.Nav
+{
+    display: grid;
+    background-color: #4c4947;
+}
+button{
+    margin-top: 10px;
+    background-color: #222022 ;
+    border-radius: 18px;
+    background-color: #6ead3a ;
+    height: 25px;
+    box-shadow: 20px;
+}
+body{
+    display: grid;
+    background-color: #ceccce;
+}
+.bodyfreym{
+    display: grid;
+    background-color: #beccb3 ;
+}
+p{
+    text-align: center;
+}
+
+.freym{
+    display: grid;
+    padding-left: -10px;
+}
+.lin{
+    display: grid;
+    background-color: #222022;
+}
+iframe{
+    display: grid;
+    background-color: #beccb3 ;
+    text-align: center;
+    display: block;
+    border-style:none;
+    height: 430px;
+    width: 100%;
+}
+.restart{
+    display: grid;
+  /* margin-top: -30px;*/
+    margin-left: 48%;
+}
+textarea{
+    display: grid;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 300px;
+    height: 150px;
+    background-color: #ccbda9;
+    border: 2px solid #729b4e;
+}
+.all{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    display: grid;
+}
+.left{
+    display: grid;
+    display: grid;
+}

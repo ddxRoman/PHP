@@ -1,0 +1,60 @@
+.test{
+ color: aliceblue;
+ display: grid;
+ justify-content: start;
+}
+.task{
+    display: grid;
+    justify-content: center;
+}
+.left{
+    margin-left: 99%;
+    display: grid;
+    justify-self: end;
+}
+
+.header{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+
+
+.Lesson{
+    width: 50%;
+    height: 80%;
+    margin-top: 4%;
+    margin-left: 25%;
+    background-color: rgb(255, 0, 0);
+}
+.SQL{
+    
+    width: 95%;
+    height: 85%;
+    margin-left: 2.5%;
+    background-color: rgb(255, 174, 0);
+}
+
+.grid{
+    
+    width: 95%;
+    height: 85%;
+    margin-left: 2.5%;
+    background-color: rgb(255, 238, 0);
+}
+.site{
+    width: 95%;
+    height: 85%;
+    margin-left: 2.5%;
+    background-color: rgb(60, 255, 0);
+}
+.info{
+    color:blue;
+}
+body{
+    background-color: rgb(221, 236, 234);
+}
+p{
+    font-weight: 900;
+    color: rgb(49, 49, 49);
+    padding-top: 1%;
+}

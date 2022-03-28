@@ -1,0 +1,80 @@
+.aut{
+    width: 200px;
+    padding: 10px;
+}
+input{
+    margin: 3px;
+}
+.sms{
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+}
+.profile1{
+    display: grid;
+    padding-left: 40%;
+    background-color: rgb(39, 39, 39);
+}
+.profile2{
+    display: grid;
+    background-color: rgb(180, 180, 180);
+}
+.all{
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+}
+/*----------------------------------------------------------*/
+.profile1aut{
+    justify-content: center;
+    width: 50%;
+    display: grid;
+   /* padding-left: 20%;*/
+    background-color: rgba(73, 205, 209, 0.301);
+}
+.profile2aut{
+    justify-items: end;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    display: grid;
+  /*  padding-left: 20%;*/
+    background-color: rgba(180, 180, 180, 0.24);
+}
+.allaut{
+    justify-self: center;
+    width: 70%;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding-left: 20%;
+}
+.logout{
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+}
+
+input {
+    border-radius: 10px;
+    color: rgb(69, 69, 95);
+    border: 2px solid rgb(138, 138, 138);
+      }
+      
+      .autbtn{
+          background-color: black;
+          height: 50px;
+          border: 2px solid rgb(196, 182, 182);
+          font-weight: 600;
+            border-radius: 8px;
+          color: rgb(255, 255, 255);
+      }
+
+      a{
+          font-weight: 600;
+                    color: rgb(255, 255, 255);
+                    text-decoration: blink;
+    
+        text-decoration: none; /* Убираем подчеркивание у ссылок */
+       }
+       a:hover { 
+        text-decoration: underline; /* Добавляем подчеркивание 
+                                       при наведении курсора мыши на ссылку */
+       }
