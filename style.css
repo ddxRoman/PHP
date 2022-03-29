@@ -18,7 +18,9 @@
     display: grid;
 }
 
-
+a{
+    color: rgb(71, 117, 117);
+}
 .Lesson{
     width: 50%;
     height: 80%;

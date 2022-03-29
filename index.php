@@ -7,9 +7,10 @@
 
 <body>
     <div class="header">
-        <div class="test"><a href="http://medcloud/Home.html" target="_blank">MC</a></div>
+    <div class="test"><a href="http://medcloud/Home.html" target="_blank">Medcloud</a></div>
         <div class="task"><a href="blocks\tasks.php" target="_blank">Tasks</a></div>
-        <div class="test"><a href="/Tetsting.php"             target="_blank">T</a></div>
+        <div class="left"><a href="/Testing.php"             target="_blank">Test</a></div>
+        <div></div>
     </div>
 
     <div class="contant">
