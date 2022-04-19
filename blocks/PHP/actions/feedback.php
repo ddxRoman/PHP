@@ -12,4 +12,3 @@ session_start();
 <div>аааан нет, неправильно<?=$_SESSION['err_sms']?></div><br>
 <button type="submit" class="Obtn">Оtправить</button>
 </form>
-

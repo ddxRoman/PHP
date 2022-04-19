@@ -3,7 +3,7 @@
         <div class="back">
             <a href="/index.php"><button>Назад</button></a></div>
             <div class="profile">
-            <?= require_once 'C:\OpenServer\domains\PHP\blocks\PHP\Forms\autorization.php'; ?>
+            <?php require_once 'C:\OpenServer\domains\PHP\blocks\PHP\Forms\autorization.php'; ?>
         </div>
         <div class="restart"> <a href="/blocks/PHP/LessonsIndex.php"><button>ГАЛАВА</button></a></div>
         <div class="date"><?php
