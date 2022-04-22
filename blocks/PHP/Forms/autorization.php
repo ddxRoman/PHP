@@ -1,13 +1,16 @@
 <?php
 session_start();
 echo $login. $password;
+if($_SESSION['user'])
+{
+   header('Location: ../Forms/profile.php');
+}
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
@@ -19,7 +22,7 @@ echo $login. $password;
 </div> 
  <div class="profile2">
  <?=$_SESSION['user']['login']?><br>
-    <a class="logout" href="../actions/logout.php">Выход</a></div>
+    <a class="logout" href="actions/logout.php">Выход</a></div>
 </div>   
 </body>
 </html>

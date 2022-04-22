@@ -13,6 +13,10 @@
     justify-self: end;
 }
 
+.autorize{
+    background-color: aqua;
+}
+
 .header{
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;

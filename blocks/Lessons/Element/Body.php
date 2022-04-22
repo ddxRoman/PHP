@@ -1,10 +1,11 @@
 <body>
     <div class="head">
         <div class="back">
-            <a href="/index.php"><button>Назад</button></a></div>
-            <div class="profile">
-            <?php require_once 'C:\OpenServer\domains\PHP\blocks\PHP\Forms\autorization.php'; ?>
+            <a href="/index.php"><button>Назад</button></a>
         </div>
+             <div class="profile">
+               <iframe class="autorize" name="2" src="../PHP/Forms/profile.php"></iframe>
+            </div> 
         <div class="restart"> <a href="/blocks/PHP/LessonsIndex.php"><button>ГАЛАВА</button></a></div>
         <div class="date"><?php
                             session_start();
@@ -21,7 +22,7 @@
                         <a href="../../../blocks/PHP/actions/function.php" target="1"><button>Функция</button></a>
                         <a href="Forms/changeForms.php" target="1"><button>Формы</button></a>
                         <a href="../../../blocks/PHP/actions/mail.php" target="1"><button>Отправить письмо</button></a>
-                        <a href="../../../blocks/PHP/actions/function.php" target="1"><button>Встроенные функции</button></a>
+                        <a href="../../../blocks/PHP/actions/function2.php" target="1"><button>Встроенные функции</button></a>
                         <a href="../../../blocks/PHP/actions/workfiles.php" target="1"><button>Файлы</button></a>
                         <a href="../../../blocks/PHP/actions/info.php" target="1"><button>ИНФО</button></a>
                         <a href="../../../blocks/PHP/actions/coockies.php" target="1"><button>Куки</button></a>

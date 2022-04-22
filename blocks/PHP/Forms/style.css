@@ -2,8 +2,12 @@
     width: 200px;
     padding: 10px;
 }
+.autsmall{
+    width: 100px;
+    margin-top: -5px;
+}
 input{
-    margin: 3px;
+    margin: 1px;
 }
 .sms{
     color: rgb(255, 0, 0);
@@ -51,6 +55,26 @@ input{
     color: rgb(255, 0, 0);
     font-weight: 900;
 }
+
+.profForm{
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.dateprof{
+    display: grid;
+    align-self: center;
+}
+.btnprof{
+    justify-content: center;
+    align-self: center;
+    width: 1px;
+    height: 10px;
+
+    display: grid;
+}
+
+
 
 input {
     border-radius: 10px;

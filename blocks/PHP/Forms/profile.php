@@ -1,6 +1,10 @@
 <?php
 session_start();
 echo $login. $password;
+if(!$_SESSION['user'])
+{
+   header('Location: ../Forms/autorizesmall.php');
+}
 ?>
 
 <!DOCTYPE html>
