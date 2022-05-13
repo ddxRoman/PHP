@@ -1,5 +1,5 @@
 <html>
-
+<? error_reporting(E_ERROR | E_PARSE);?> <!-- Не выводит Варнинги на страницу-->
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Cайт с уроками по PHP</title>
@@ -24,7 +24,7 @@
                         <a href="blocks/grids//index.php">
                             <div class="grid">
                                 <p align="center">Уроки по Grid</p>
-                                <a href="blocks/OOP/OOPindex.php">
+                                <a href="blocks/OOP/indexOOP.php">
                                     <div class="site">
                                         <p align="center">PHP ООП</p>
                                     </div>

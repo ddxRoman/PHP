@@ -28,6 +28,7 @@
                         <a href="../../../blocks/PHP/actions/coockies.php" target="1"><button>Куки</button></a>
                         <a href="../../../blocks/PHP/actions/feedback.php" target="1"><button>Обратная связь</button></a>
                         <a href="/blocks/PHP/Forms/autorize.php" target="1"><button>Авторизация</button></a>
+                        <a href="/blocks/PHP/Forms/parsing.php" target="1"><button>Парсинг</button></a>
 
         </p>
     </div>

@@ -1,13 +1,12 @@
 <?php
 
  require_once '../../../function/connect.php';
-echo"<br>Сюда надо затягивать еще название столбцов для таблицы";
 
- $results = mysqli_query($connect, "SELECT TABLE_NAME from INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE' AND TABLE_SCHEMA='firstdb'");
- $r2 = $results->fetch_all(MYSQLI_ASSOC);
+ $results = mysqli_query($connect, "SELECT TABLE_NAME from INFORMATION_SCHEMA.TABLES 
+ WHERE TABLE_TYPE='BASE TABLE' AND TABLE_SCHEMA='firstdb'"); /* Количество таблиц в БД*/
+ $r2 = $results->fetch_all(MYSQLI_ASSOC); /* Выводим конкретно название таблиц */
  $te=$_POST['sel'];
  foreach($r2 as $rr){
-
  }
 
 ?>
@@ -59,8 +58,10 @@ echo "<option></option>";
         
         <?php
             $product =mysqli_query($connect, "SELECT * FROM `$te`");
+           
            // if($result2->num_rows>0){
             $product=mysqli_fetch_all($product);
+          
             foreach($product as $products){   
                 ?>
            

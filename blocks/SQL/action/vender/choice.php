@@ -39,6 +39,5 @@ require_once '../../../../function/SelectTable.php';
         echo '<hr color=blue>';
         $result = $mysql->query("SELECT * FROM `firstdb`.`users` ORDER BY `id` ASC LIMIT 3 ");
         resprint($result);
-
         $mysql->close();
 ?>

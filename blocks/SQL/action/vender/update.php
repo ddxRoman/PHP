@@ -5,7 +5,6 @@
 </html>
 
 <?php
-
 require_once '../../../../function/connect.php';
 $product_id = $_GET['id'];
 $product=mysqli_query($connect, "SELECT*FROM `users`WHERE `id`='$product_id'");
@@ -13,7 +12,6 @@ $product=mysqli_fetch_assoc($product);
 ?>
 <html>
     <head>
-
     </head>
     <body>
     <form action="secondupd.php" method="post">
@@ -25,7 +23,6 @@ $product=mysqli_fetch_assoc($product);
                 <p>Mail</p>
                 <input type="text" name="email" value="<?=$product['email']?>">
                 <button type="submit">Редактировать</button>
-
             </form>
     </body>
 </html>

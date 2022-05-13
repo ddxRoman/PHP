@@ -1,7 +1,5 @@
 <?php
 
-
-
 require_once '../../../../function/connect.php';
 
 $id = $_POST['id'];
@@ -13,8 +11,6 @@ $email = $_POST['email'];
 echo $email." - Тута Пошта  <br> "; 
 mysqli_query($connect, "UPDATE `users` SET  `Name` = '$Name', 
 `Password` = '$Password', `email` = '$email' WHERE `id` = '$id'");
-
-
 
 header('location: ../tablework.php');
 ?>

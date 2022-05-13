@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(48, 48, 48);
+}
+button{
+    background-color: rgb(48, 48, 48);
+    border-color: rgb(219, 113, 14);
+    color: antiquewhite;
+}
+button:hover{
+    background-color: rgb(70, 70, 70);
+    border-color: rgb(250, 136, 30);
+    color: antiquewhite;
+}
+a{
+    width: max-content
+}
+.ALL{
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0.3fr 1fr 6fr;
+    border:1px solid rgba(255, 136, 0, 0.075);
+    width: 90%;
+    height: 550px;
+    margin: 3% 0% 0% 3%;
+    
+}
+
+
+.back{
+    width: 250%;
+
+}
+
+.header{
+    padding-left: 3%;
+    display: grid;
+    align-items: center;
+    border:2px solid rgb(255, 123, 0);
+}
+
+.contant{
+    border: 3px solid #558;
+}
+
+iframe{
+    
+    width: 96%;
+    height: 90%;
+    margin: 2% 0% 2% 2%;
+    border: 0px;
+}
