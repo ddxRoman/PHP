@@ -53,6 +53,12 @@ a{
     margin-left: 2.5%;
     background-color: rgb(60, 255, 0);
 }
+.JS{
+    width: 95%;
+    height: 85%;
+    margin-left: 2.5%;
+    background-color: rgb(0, 255, 234);
+}
 .info{
     color:blue;
 }

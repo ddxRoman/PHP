@@ -1,0 +1,15 @@
+.fun button {
+        
+    width: 5%;
+    height: 7%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(21, 155, 92);
+}
+
+.fun button:hover{
+    
+    width: 5%;
+    height: 7%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(95, 8, 8);
+}

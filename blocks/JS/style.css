@@ -1,0 +1,17 @@
+body{
+    width: 90%;
+    height: 79%;
+    margin: 5%;
+    /* border: 2px solid rgb(138, 31, 19); */
+    background-color: rgba(131, 122, 46, 0.897);
+}
+p{
+    font-size:  10pt;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.telo{
+    margin: 3%;
+    width: 90%;
+    height: 90%;
+}

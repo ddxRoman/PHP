@@ -1,5 +1,7 @@
 <html>
-<? error_reporting(E_ERROR | E_PARSE);?> <!-- Не выводит Варнинги на страницу-->
+<? error_reporting(E_ERROR | E_PARSE); ?>
+<!-- Не выводит Варнинги на страницу-->
+
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Cайт с уроками по PHP</title>
@@ -7,9 +9,9 @@
 
 <body>
     <div class="header">
-    <div class="test"><a href="http://medcloud/Home.html" target="_blank">Medcloud</a></div>
+        <div class="test"><a href="http://medcloud/Home.html" target="_blank">Medcloud</a></div>
         <div class="task"><a href="blocks\tasks.php" target="_blank">Tasks</a></div>
-        <div class="left"><a href="/Testing.php"             target="_blank">Test</a></div>
+        <div class="left"><a href="/Testing.php" target="_blank">Test</a></div>
         <div></div>
     </div>
 
@@ -27,14 +29,20 @@
                                 <a href="blocks/OOP/indexOOP.php">
                                     <div class="site">
                                         <p align="center">PHP ООП</p>
+                                        <a href="blocks/JS/JSindexLesson.php">
+                                            <div class="JS">
+                                                <p align="center">Java Scripts</p>
+                                            </div>
+                                        </a>
                                     </div>
                                 </a>
-                            </div>
                         </a>
                     </div>
                 </a>
             </div>
         </a>
+    </div>
+    </a>
     </div>
     <!-- Что бы закоментить несколько строк 
     Используют одновременно ctrl+/ -->
