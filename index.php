@@ -32,6 +32,11 @@
                                         <a href="blocks/JS/JSindexLesson.php">
                                             <div class="JS">
                                                 <p align="center">Java Scripts</p>
+                                                <a href="blocks/PHP/Parcer/IndexParcer.php">
+                                                <div class="Parcer">
+                                                    <p align="center">Парсер</p>
+                                                </div>
+                                                </a>
                                             </div>
                                         </a>
                                     </div>

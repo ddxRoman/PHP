@@ -59,6 +59,12 @@ a{
     margin-left: 2.5%;
     background-color: rgb(0, 255, 234);
 }
+.Parcer{
+    width: 95%;
+    height: 85%;
+    margin-left: 2.5%;
+    background-color: rgb(4, 0, 255);
+}
 .info{
     color:blue;
 }
@@ -69,4 +75,7 @@ p{
     font-weight: 900;
     color: rgb(49, 49, 49);
     padding-top: 1%;
+}
+.Parcer p{
+    color: white;
 }
