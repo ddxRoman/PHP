@@ -22,7 +22,7 @@ $comment = mysqli_fetch_all($comment);
     <font class="info"><strong>Имя:</strong> <?= $product['Name'] ?><br></font>
     <font class="info"><strong>Пароль:</strong> <?= $product['Password'] ?><br></font>
     <font class="info"><strong>Почта:</strong> <?= $product['email'] ?><br></font>
-    <font class="info"><strong>Почта:</strong> <?= $product['date'] ?><br></font>
+    <font class="info"><strong>дата:</strong> <?= $product['date'] ?><br></font>
 
     <form action="crcomm.php" method="post">
         <input type="hidden" name="id" value="<?= $product['id'] ?>">

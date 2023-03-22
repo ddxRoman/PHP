@@ -29,11 +29,11 @@ mysqli_query($connect, "INSERT INTO `user` (`id`, `login`, `password`, `email`, 
 VALUES (NULL, '$login', '$password', '$mail', '$path', CURRENT_DATE())");
 
 $_SESSION['sms']='<br>Регистрация завершена';
-header('Location: ../Forms/autorize.php');
+// header('Location: ../Forms/autorize.php');
 }
 else{
     $_SESSION['sms']='<br>Пароли не совпадают';
-    header('Location: ../Forms/registry.php');
+    // header('Location: ../Forms/registry.php');
 }
 
 ?>

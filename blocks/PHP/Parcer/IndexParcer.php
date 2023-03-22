@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
         <a href="blocks/ParcerClinic.php"><button>ClinicMobile</button>    </a><br>
         <a href="blocks/ParcerProDoctorov.php"><button>ПроДокторов</button>    </a><br><br>
         <a href="blocks/Shop/DNS.php"><button>DNS</button></a>

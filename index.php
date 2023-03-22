@@ -29,7 +29,7 @@
                                 <a href="blocks/OOP/indexOOP.php">
                                     <div class="site">
                                         <p align="center">PHP ООП</p>
-                                        <a href="blocks/JS/JSindexLesson.php">
+                                        <a href="blocks/JS/index.html">
                                             <div class="JS">
                                                 <p align="center">Java Scripts</p>
                                                 <a href="blocks/PHP/Parcer/IndexParcer.php">

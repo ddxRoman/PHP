@@ -5,7 +5,7 @@ $sample="$sample#";
 
 echo " Пользователь с шаблоном имени - $sample добавлен  $count-раз<br>";
         $mysql = new mysqli("localhost", "root","qazwsx","firstdb");
-        $result = $mysql->query("SELECT * FROM `firstdb`.`users` ORDER BY `id` ASC");
+        $result = $mysql->query("SELECT * FROM `firstdb`.`1` ORDER BY `id` ASC");
         $mysql->query("SET NAMES 'UTF-8'");
         if($mysql ->connect_error){
             echo 'Номер ошибки:  '.$mysql ->connect_errno.'<br>';
@@ -26,7 +26,7 @@ echo " Пользователь с шаблоном имени - $sample доб�
                 $pass= rand();
         
 ////////////////////////Для базы Юзерз, очень коряво и через жопу//////////////////////////
-$mysql->query ("INSERT INTO `firstdb`.`users` (
+$mysql->query ("INSERT INTO `firstdb`.`1` (
     `id`, `Name`, `Password`, `email`) 
     VALUES ('$id', '$name', '$pass', 'post')");
 //////////////////////////////////////////////////
