@@ -7,8 +7,8 @@
 <body>
     <div class="telo">
 
-    <a href="../JS/Who_my_Wife.php"><button class="fun"><p>RESTART</p></button></a>
-
+    <a href="../JS/Who_my_Wife.php"><button class="fun"><p>RESTART</p></button></a><br>
+    <a href="../JS/index.html"><button class="fun"><p>Назад</p></button></a>
     </div>
 
 </body>
