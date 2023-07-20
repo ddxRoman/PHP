@@ -33,19 +33,8 @@ if(trim($sms) == ""){
 }
 else{
     $sms="$sms\n";// Перенос строки лучше делать константой PHP_EOL
-// fwrite($file, $sms);
-// echo "<br> права доступа - ";
-// echo fileperms("../../../Files/text.txt");
-// $filename = "../../../Files/text.txt";
-// $file=fopen("../../../Files/text.txt","r");
-// $content=fread($file, filesize($filename));
-// fclose($file);
-// echo "<br>".$content;
-// echo"<br>";
-// //echo file_exists("../../../Files/tex1t.txt")."<br>";
-// rename("../../../Files/text.txt","../../../Files/text.txt");
 
-//unlink("name"); удаление файла
+    
 
 //////////////////////////////////////////////////
 $date=date(' от d F yг в G i s');

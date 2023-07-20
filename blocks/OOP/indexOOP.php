@@ -9,10 +9,13 @@
 <body>
     <div class="ALL">
         <a href="../../index.php"><button class="back">BACK</button></a>
-    <div class="header"><a href="action/Lesson1.js" target="1"><button>Lesson1</button></a>
+    <div class="header">
+    <a href="action/Lesson1.php" target="frame"><button>Lesson1</button></a>
+    <a href="action/Lesson2.php" target="frame"><button>Lesson2</button></a>
+    
     </div>
     <div class="contant">
-    <script src="action/Lesson1.js"></script>
+    <iframe src="" name="frame"></iframe>
     </div>
 </div>
 </body>
