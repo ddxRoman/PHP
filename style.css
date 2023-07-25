@@ -1,81 +1,36 @@
-.test{
- color: aliceblue;
- display: grid;
- justify-content: start;
-}
-.task{
-    display: grid;
-    justify-content: center;
-}
-.left{
-    margin-left: 99%;
-    display: grid;
-    justify-self: end;
-}
+    img{
+        position: relative;
+        width: 100%;
+        opacity: 0.7;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        background: url(Files/backgroung/index.jpg);
+        margin: 5%;
+    }
+    .btn {
+    transition: 0.5s; /* Время эффекта */
+   }
+   .btn:hover{
+    transform: scale(1.3); /* Увеличиваем масштаб */
+    opacity: 100%;
+    z-index: 10;
+   }
+   .all{
 
-.autorize{
-    background-color: aqua;
-}
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+   }
+   .OneLine{
 
-.header{
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
-}
+   }
+   .SecondLine{
 
-a{
-    color: rgb(71, 117, 117);
-}
-.Lesson{
-    width: 50%;
-    height: 80%;
-    margin-top: 4%;
-    margin-left: 25%;
-    background-color: rgb(255, 0, 0);
-}
-.SQL{
-    
-    width: 95%;
-    height: 85%;
-    margin-left: 2.5%;
-    background-color: rgb(255, 174, 0);
-}
-
-.grid{
-    
-    width: 95%;
-    height: 85%;
-    margin-left: 2.5%;
-    background-color: rgb(255, 238, 0);
-}
-.site{
-    width: 95%;
-    height: 85%;
-    margin-left: 2.5%;
-    background-color: rgb(60, 255, 0);
-}
-.JS{
-    width: 95%;
-    height: 85%;
-    margin-left: 2.5%;
-    background-color: rgb(0, 255, 234);
-}
-.Parcer{
-    width: 95%;
-    height: 85%;
-    margin-left: 2.5%;
-    background-color: rgb(4, 0, 255);
-}
-.info{
-    color:blue;
-}
-body{
-    background-color: rgb(221, 236, 234);
-}
-p{
-    font-weight: 900;
-    color: rgb(49, 49, 49);
-    padding-top: 1%;
-}
-.Parcer p{
-    color: white;
-}
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+   }

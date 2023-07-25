@@ -12,6 +12,7 @@
     <div class="header">
     <a href="action/Lesson1.php" target="frame"><button>Lesson1</button></a>
     <a href="action/Lesson2.php" target="frame"><button>Lesson2</button></a>
+    <a href="action/Lesson3.php" target="frame"><button>Lesson3</button></a>
     
     </div>
     <div class="contant">

@@ -13,7 +13,7 @@ button:hover{
     color: antiquewhite;
 }
 a{
-    width: max-content
+    width: max-content;
 }
 .ALL{
     color: antiquewhite;
@@ -29,15 +29,6 @@ a{
 .back{
     width: 250%;
 }
-
-/* .header{
-    width: 100%;
-    display: inline-block;
-    padding-left: 3%;
-    display: grid;
-    align-items: center;
-    border:2px solid rgb(255, 123, 0);
-} */
 
 .contant{
     border: 3px solid #558;

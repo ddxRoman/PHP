@@ -1,62 +1,43 @@
-<html>
-<? error_reporting(E_ERROR | E_PARSE); ?>
-<!-- Не выводит Варнинги на страницу-->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="/Files/icon/ico.png">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Cайт с уроками по PHP</title>
+    <title>Сайт изучения РНР</title>
 </head>
-
 <body>
-    <div class="header">
-        <div class="test"><a href="http://medcloud/Home.html" target="_blank">Medcloud</a></div>
-        <div class="task"><a href="blocks\tasks.php" target="_blank">Tasks</a></div>
-        <div class="left"><a href="/Testing.php" target="_blank">Test</a></div>
-        <div></div>
-    </div>
+    <!-- <div>
+    <table>
+  <tr>
+  <td><a href="blocks\PHP\Lessonsindex.php"><img class="btn" src="files/icon/php.png"></a></td>
+    <td><a href="blocks/OOP/indexOOP.php"><img class="btn" src="files/icon/Object-Oriented-PHP.jpg"></a></td>
+    <td><a href="blocks/JS/index.html"><img class="btn" src="files/icon/JS.png"></a></td>
+  </tr>
+  <tr>
+    <td><a href="blocks/SQL/SQLindex.php"><img class="btn" src="files/icon/SQL.png"></a></td>
+    <td><a href="blocks/grids//index.php"><img class="btn" src="files/icon/Grid.png"></a></td>
+    <td><a href="blocks/PHP/Parcer/IndexParcer.php"><img class="btn" src="files/icon/Parser.png"></a></td>
+  </tr>
+</table>
+    </div> -->
 
-    <div class="contant">
-        <h1 align="center">Всякие уроки РНР и SQL пока что</h1>
-        <a href="blocks\PHP\Lessonsindex.php">
-            <div class="Lesson">
-                <p align="center">Уроки PHP</p>
-                <a href="blocks/SQL/SQLindex.php">
-                    <div class="SQL">
-                        <p align="center">Уроки по SQL</p>
-                        <a href="blocks/grids//index.php">
-                            <div class="grid">
-                                <p align="center">Уроки по Grid</p>
-                                <a href="blocks/OOP/indexOOP.php">
-                                    <div class="site">
-                                        <p align="center">PHP ООП</p>
-                                        <a href="blocks/JS/index.html">
-                                            <div class="JS">
-                                                <p align="center">Java Scripts</p>
-                                                <a href="blocks/PHP/Parcer/IndexParcer.php">
-                                                <div class="Parcer">
-                                                    <p align="center">Парсер</p>
-                                                </div>
-                                                </a>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </a>
-                        </a>
-                    </div>
-                </a>
-            </div>
-        </a>
+    <!-- ---------------------------------------------Тут надо Гриды сделать------------------------------------>
+    <div class="all">
+
+    <div class="OneLine" > 
+    <a href="blocks\PHP\Lessonsindex.php"><img class="btn" src="files/icon/php.png"></a>
+    <a href="blocks/OOP/indexOOP.php"><img class="btn" src="files/icon/Object-Oriented-PHP.jpg"></a>
+    <a href="blocks/JS/index.html"><img class="btn" src="files/icon/JS.png"></a>
+    </div> 
+
+    <div class="SecondLine" > 
+    <a href="blocks/SQL/SQLindex.php"><img class="btn" src="files/icon/SQL.png"></a>
+    <a href="blocks/grids//index.php"><img class="btn" src="files/icon/Grid.png"></a>
+    <a href="blocks/PHP/Parcer/IndexParcer.php"><img class="btn" src="files/icon/Parser.png"></a>
+    </div> 
+
     </div>
-    </a>
-    </div>
-    <!-- Что бы закоментить несколько строк 
-    Используют одновременно ctrl+/ -->
 </body>
-
 </html>
-
-<?php
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT); //Вывод реальных ошибок 
-
-
-?>

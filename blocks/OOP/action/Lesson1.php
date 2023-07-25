@@ -39,12 +39,7 @@ $this->face=$face;
 
 
 public function pretty(){
-}
-public function suck(){
-
-}
-public function fuck(){
-
+  echo "Wife is very pretty girl, amazing wooman";
 }
 //Setter
 public function changeName($name){
@@ -74,6 +69,8 @@ echo "</pre>";
 $wife2->changeName('Tarakashka');
 
 echo $wife2->showname();
+
+$wife1->pretty();
 
 ?>
 
