@@ -19,5 +19,14 @@
     <iframe src="" name="frame"></iframe>
     </div>
 </div>
+
+
+<div сlass="all=page">
+    
+</div>
+
+
+
+
 </body>
 </html>

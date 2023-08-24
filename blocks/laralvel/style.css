@@ -1,0 +1,9 @@
+body{
+    /* background-image: url("=../../Files/backgroung/index.jpg"); */
+    background: url(../../Files/backgroung/lesson.png);
+    color: antiquewhite;
+}
+h1{
+    color: bisque;
+    text-align: center;
+}
