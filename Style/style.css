@@ -1,0 +1,9 @@
+body{background-color: rgb(0, 0, 0);}
+.full_page{
+    display: grid;
+    grid-template-rows: 15% 8% 65% 12%;
+    
+}
+div{
+    border: 2px solid #acf;
+}

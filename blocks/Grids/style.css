@@ -1,125 +1,60 @@
 body{
-    color: rgb(0, 0, 0);
-    background-color: rgb(204, 222, 238);
+  display: grid;
+  background: url(lesson.png);
+  color: rgb(223, 219, 214);
+  background-size: cover;
+  /* background-color: rgb(141, 130, 121); */
 }
-iframe{
-    width: 98%;
-    height: 98%;
-    border: 10px;
+div{
+  display: grid;
+  border: 2px solid rgba(0, 255, 21, 0.082);
 }
-.ref{
-    width: 300px;
-    height: 75px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);  
-}
-.txtbtn{
-    color: rgb(255, 255, 255);
-    font: 1.9em "Fira Sans", sans-serif;
-}
-
-
-
-.container{
-display: grid;
-grid-gap: 2px;
+.full_page{
+  display: grid;
+  min-height: 550px;
+  grid-template-rows: 15% 8% 65% 12%;
 }
 .header{
-    grid-column: 1fr 1fr;
-    margin-top: 1%;
-    padding: 1%;
-    grid-column: 1/4;
-    border: 2px solid #4d4d4d;
+  display: grid;
+  align-content: center;
 }
-.sidebar{
-    height:40px;
-    grid-column:1/4;
-    border: 2px solid #4d4d4d;
+
+h1{
+  text-align: center;
+  color: aliceblue;
 }
-.content{
-    padding: 1%;
-    height: 400px;
-    grid-column: 1/4;
-    border: 2px solid #4d4d4d;
+.NavBar{
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  align-content: center;
+}
+button{
+  min-width: 60%;
+  max-width: 100%;
+  font-size: 12pt;
+  min-height: 80%;
+  align-content: center;
+
+  background: rgba(85, 85, 85, 0.11);
+  color: rgb(196, 194, 182);
+}
+button:hover{
+  min-width: 60%;
+  max-width: 100%;
+  font-size: 14pt;
+  min-height: 80%;
+  align-content: center;
+  border: ;
+  background: rgba(77, 77, 77, 0.493);
+  transition: 0.2s;
+  border-radius: 7px;
+}
+.container{
+  display: grid;
+  padding-top: 2%;
 }
 .footer{
-    height: 100px;
-    grid-column: 1/4;
-    border:1px solid #4d4d4d;
-}
-
-
-
-
-button {
-  position: relative;
-  display: inline-block;
-  background: none;
-  outline: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: rgb(0, 0, 0);;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .05em;
-}
-button span {
-  position: relative;
-  z-index: 1;
-  display: block;
-  min-width: 1em;
-  padding: 1em;
-  border-radius: 2em;
-  background-color: rgb(204, 222, 238);;
-  border: 1px solid rgb(204, 222, 238);;
-  -webkit-box-shadow: -5px 5px 10px rgba(90, 80, 80, 0.2);
-          box-shadow: -5px 5px 10px rgba(102, 91, 91, 0.2);
-  -webkit-transition: background-color .2s, -webkit-transform .1s, -webkit-box-shadow .2s;
-  transition: background-color .2s, -webkit-transform .1s, -webkit-box-shadow .2s;
-  transition: transform .1s, box-shadow .2s, background-color .2s;
-  transition: transform .1s, box-shadow .2s, background-color .2s, -webkit-transform .1s, -webkit-box-shadow .2s;
-}
-button::after {
-  content: '';
-  position: absolute;
-  top: -1em;
-  bottom: -1em;
-  left: -1em;
-  right: -1em;
-  border-radius: 4em;
-  -webkit-box-shadow: 0 0 0px rgba(255, 0, 0, 0.2), inset 0 0 0px rgba(255, 0, 0, 0.2);
-          box-shadow: 0 0 0px rgba(255, 0, 0, 0.2), inset 0 0 0px rgba(255, 0, 0, 0.2);
-  -webkit-transition: -webkit-box-shadow .1s;
-  transition: -webkit-box-shadow .1s;
-  transition: box-shadow .1s;
-  transition: box-shadow .1s, -webkit-box-shadow .1s;
-}
-button:hover span, button:focus span {
-  background-color: rgb(204, 222, 238);;
-}
-button:active span {
-  background-color: rgb(204, 222, 238);;
-  -webkit-transform: scale(0.97);
-          transform: scale(0.97);
-  -webkit-box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-button:active::after {
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), inset -3px 3px 1em rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), inset -3px 3px 1em rgba(0, 0, 0, 0.2);
-}
-  
-.wrap {
-  width: 100%;
+  display: grid;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-.wrap button {
-  margin: 1em;
+  align-content: center;
 }
