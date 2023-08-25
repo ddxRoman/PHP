@@ -1,24 +1,12 @@
-body{
+ body{
   display: grid;
   background: url(lesson.png);
-  color: rgb(223, 219, 214);
   background-size: cover;
-  /* background-color: rgb(141, 130, 121); */
-}
-div{
-  display: grid;
-  border: 2px solid rgba(0, 255, 21, 0.082);
-}
-.full_page{
-  display: grid;
-  min-height: 550px;
-  grid-template-rows: 15% 8% 65% 12%;
 }
 .header{
   display: grid;
   align-content: center;
 }
-
 h1{
   text-align: center;
   color: aliceblue;
@@ -27,6 +15,8 @@ h1{
   display: grid;
   grid-template-columns: 15% 15% 15% 15%;
   align-content: center;
+  max-height:20px;
+  justify-content: center;
 }
 button{
   min-width: 60%;
@@ -34,14 +24,13 @@ button{
   font-size: 12pt;
   min-height: 80%;
   align-content: center;
-
   background: rgba(85, 85, 85, 0.11);
   color: rgb(196, 194, 182);
 }
 button:hover{
   min-width: 60%;
   max-width: 100%;
-  font-size: 14pt;
+  font-size: 16pt;
   min-height: 80%;
   align-content: center;
   background: rgba(77, 77, 77, 0.493);
@@ -49,10 +38,23 @@ button:hover{
   border-radius: 7px;
 }
 .container{
-  display: grid;
   padding-top: 2%;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.24);
+  margin-top: 5px;
+  display: table-row;
+  display: grid;
+  height: 100%;
+  font-weight: 600;
+  font-size: 22pt;
 }
-.footer{
+footer{
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.479);
+  color: rgb(0, 0, 0);
+  height: auto;
+  width: 100%;
+  position: absolute;
   display: grid;
   text-align: center;
   align-content: center;
