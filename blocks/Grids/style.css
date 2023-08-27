@@ -58,4 +58,6 @@ footer{
   display: grid;
   text-align: center;
   align-content: center;
+}div{
+  border: 3px solid rgb(12, 82, 235);
 }

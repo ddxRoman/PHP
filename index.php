@@ -19,13 +19,13 @@
     </div> 
 
     <div class="SecondLine" > 
-    <a href="blocks/SQL/SQLindex.php"><img class="btn" src="files/icon/SQL.png"></a>
+    <a href="blocks/bootstrap/bootstrapindex.php"><img class="btn" src="files/icon/bootstrap.png"></a>
     <a href="blocks/grids//index.php"><img class="btn" src="files/icon/Grid.png"></a>
     <a href="blocks/PHP/Parcer/IndexParcer.php"><img class="btn" src="files/icon/Parser.png"></a>
 
     </div> 
     <div class="SecondLine">
-
+    <a href="blocks/SQL/SQLindex.php"><img class="btn" src="files/icon/SQL.png"></a>
     <a href="blocks/JS/index.html"><img class="btn" src="files/icon/JS.png"></a>
     <a href="other/other.php"><img class="btn" src="files/icon/other.png"></a>
     
