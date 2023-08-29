@@ -1,11 +1,36 @@
+img{
+    position: relative;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
 body{
-    background-color: rgb(182, 114, 114);
+    background: url(Files/backgroung/index.jpg);
+    margin: 5%;
 }
-.full_page{
-    display: grid;
-    grid-template-rows: 15% 8% 65% 12%;
+.btn {
+transition: 0.5s; /* Время эффекта */
 }
-div{
-    display: grid;
-    border: 6px solid #acf;
+.btn:hover{
+transform: scale(1.3); /* Увеличиваем масштаб */
+opacity: 100%;
+z-index: 10;
+}
+.all{
+
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr;
+}
+.OneLine{
+
+grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+}
+.SecondLine{
+
+grid-template-columns: 1fr 1fr 1fr;
+display: grid;
 }

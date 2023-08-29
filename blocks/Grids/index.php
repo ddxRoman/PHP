@@ -10,7 +10,7 @@
 <div class="full_page">
 <div class="header"><h1>CSS Grid</h1></div>
 <div class="NavBar">
-    <button>Function 1</button>
+    <a href="http://php/"><button>Index</button></a>
     <button>Function 2</button>
     <button>Function 3</button>
     <button>Function 4</button>
