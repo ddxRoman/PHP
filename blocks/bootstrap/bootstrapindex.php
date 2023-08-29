@@ -36,6 +36,11 @@
                 <h2 class="text-center text-uppercase color1 mb-5">Цели уроков</h2>
             </div>
         </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd-circle"></div>
+            </div>
+        </div>
     </div>
 </section>
 
