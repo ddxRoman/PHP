@@ -21,13 +21,11 @@
                 <div class="itd_play" data-bs-toggle="modal" data-bs-target="#start">
                     <div class="itd_triangle"></div>
                     </div>
-                <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Let's GO</a>
+                <a href="action/col.php" class="btn btn-itd btn-lg text-uppercase">Let's GO</a>
             </div>            
         </div>
     </div>
 </header>
-
-
 
 <section class="about">
     <div class="container">

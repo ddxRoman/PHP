@@ -142,3 +142,6 @@ align-items: center;
 footer{
     padding: 30px;
 }
+.border{
+    border: 2px solid #00ff00;
+}
